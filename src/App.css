@@ -47,6 +47,12 @@
 	display: flex;
 	background: #f55a5a;
 	align-items: center;
+	justify-content: center;
+	color: white;
+	font-family: inter;
+	font-weight: bold;
+	/* font-size: 18px; */
+	letter-spacing: .1px;
 }
 
 .navbar-logo {
@@ -66,18 +72,18 @@
 	line-height: 30px;
 	letter-spacing: 0em;
 	text-align: left;
-  max-width: 500px;
-  max-height: 195px;;
+	max-width: 500px;
+	max-height: 195px;
 }
 .card-image {
 	border-radius: 5px;
-  width: 155px;
-  height: 195px;
+	width: 155px;
+	height: 195px;
 	margin-right: 20px;
-	box-shadow: 10px 10px 5px #ccc;
-	-moz-box-shadow: 10px 10px 5px #ccc;
-	-webkit-box-shadow: 10px 10px 5px #ccc;
-	-khtml-box-shadow: 10px 10px 5px #ccc;
+	box-shadow: 7px 7px 3px #ccc;
+	-moz-box-shadow: 7px 7px 3px #ccc;
+	-webkit-box-shadow: 7px 7px 3px #ccc;
+	-khtml-box-shadow: 7px 7px 3px #ccc;
 }
 
 .card-pin {
@@ -92,19 +98,20 @@
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 12px;
-	letter-spacing: 0.17em;
+	letter-spacing: 0.11em;
 	text-align: left;
 }
 
-.card-date{
-  font-weight: bold;
-  font-size: 14px;
+.card-date {
+	font-weight: bold;
+	font-size: 14px;
 }
 
-.card-text{
-	font-weight: 400;
-  font-size: 12px;
-  line-height:15.36px;
-  padding-top: 4px;
-  margin-top: auto;
+.card-text {
+	font-weight: 500;
+    font-size: 13px;
+    line-height: 15.36px;
+	padding-top: 4px;
+	margin-top: auto;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
