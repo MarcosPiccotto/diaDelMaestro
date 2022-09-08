@@ -110,9 +110,12 @@
 
 .card-text {
 	font-weight: 500;
-    font-size: 13px;
+    font-size: 15px;
     line-height: 15.36px;
 	padding-top: 4px;
 	margin-top: auto;
 	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card-text-link{
+	padding-top: 3px;
 }
