@@ -3,7 +3,7 @@ export default function Card(props) {
     const {id,title,authors,scratchUrl,description,imageUrl} = props
     return(
         <div id={id} className="card">
-            <img className="card-image" src={`src/assets/${imageUrl}.png`} alt="Project photo" />
+            <img className="card-image" src={imageUrl} alt="Project photo" />
             <div>
                 <p>{title}</p>
                 <p className="card-text">Autor/es: {authors}</p>
